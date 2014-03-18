@@ -6,8 +6,6 @@ import re
 import pexpect,pxssh
 
 def logon(server):
-    #login = 'qima'
-    #passwd = 'hello715'
     login = 'lss'
     passwd = 'lss'
     ssh = 'ssh -l %s %s' % (login, server)
